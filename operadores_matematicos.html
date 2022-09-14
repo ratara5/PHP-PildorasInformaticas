@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+    <style>
+        input, select
+        {
+            color: white;
+        }
+    </style>
+    <title>Operadores Matemáticos</title>
+</head>
+<body>
+    <p>&nbsp;</p>
+    <form name="form1" method="post" action="operadores_matematicos_funciones.php"> <!--Con actions llevamos la info del formulario al archivo .php-->
+        <p>
+            <label for="num1"></label>
+            <input type="text" name="num1" id="num1"></input>
+            <label for="num2"></label>
+            <input type="text" name="num2" id="num2"></input>
+            <label for="operacion"></label>
+            <select name="operacion" id="operacion">
+                <option>Suma</option>
+                <option>Resta</option>
+                <option>Multiplcación</option>
+                <option>División</option>
+                <option>Módulo</option>
+                <option>Incremento</option>
+                <option>Decremento</option>
+            </select>
+        </p>
+        <p>
+            <input type="submit" name="button" id="button" value="Enviar" onClick="prueba">
+        </p>
+    </form>
+    <p>&nbsp;</p>
+
+    
+</body>
+</html>
